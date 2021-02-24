@@ -3,7 +3,7 @@ width: 100px;
 line-height: 0;
 padding: 50px;
 margin: 50px auto;
-background-color: powderblue;
+background-color: peru;
 border-radius: 50%;
 cursor: pointer;
 color: black;
@@ -12,4 +12,36 @@ transition-duration: 2s;
 transition-delay: 0s;
 transition-timing-function: ease-in-out;
 
+}
+
+.hover:hover {
+    color:salmon;
+    background-color:teal;
+
+}
+/*measured in deg */
+.rotate:hover {
+    color: salmon;
+    background-color: teal;
+    transform: rotate(360deg)
+}
+
+/* measured in deg */
+.skew:hover {
+    color: salmon;
+    background-color: teal;
+    transform: skewY(30deg);
+}
+
+/*measured in px */
+.translatex:hover {
+    color: salmon;
+    background-color: teal;
+    transform: translateX(30px);
+}
+
+.translateY:hover {
+    color: salmon;
+    background-color: teal;
+    transform: translateY(30px);
 }
