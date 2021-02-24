@@ -43,5 +43,18 @@ transition-timing-function: ease-in-out;
 .translateY:hover {
     color: salmon;
     background-color: teal;
-    transform: translateY(30px);
+    transform: translateY(-30px);
+}
+
+.scale:hover {
+    color: salmon;
+    background-color: teal;
+    transform: scale(2, 2);
+}
+
+/* measures in integer */
+.threeD:hover {
+    color: salmon;
+    background-color: teal;
+    transform: (2, 0.5);
 }
