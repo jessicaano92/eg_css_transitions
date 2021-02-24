@@ -1,0 +1,15 @@
+.hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
+width: 100px;
+line-height: 0;
+padding: 50px;
+margin: 50px auto;
+background-color: powderblue;
+border-radius: 50%;
+cursor: pointer;
+color: black;
+transition-property: color, background-color, transform;
+transition-duration: 2s;
+transition-delay: 0s;
+transition-timing-function: ease-in-out;
+
+}
