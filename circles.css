@@ -46,15 +46,16 @@ transition-timing-function: ease-in-out;
     transform: translateY(-30px);
 }
 
+/* measures in integer */
 .scale:hover {
     color: salmon;
     background-color: teal;
     transform: scale(2, 2);
 }
 
-/* measures in integer */
+
 .threeD:hover {
     color: salmon;
     background-color: teal;
-    transform: (2, 0.5);
+    transform: rotateX(150deg);
 }
